@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinging Baddies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff99cc, #ff66b2, #ff99cc);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        nav {
+            background: linear-gradient(to right, #ff66b2, #ff99cc);
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 50px 20px;
+            background: url('img/rainbow-bg.jpg') no-repeat center center/cover;
+        }
+        .btn {
+            background: #ff66b2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #ff3385;
+        }
+        .products {
+            padding: 20px;
+        }
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .product-card {
+            background: #ff66b2;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255, 51, 133, 0.5);
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product-card button {
+            background: #ff66b2;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: linear-gradient(to right, #ff66b2, #ff99cc);
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/IMG_6787.png" alt="Blinging Baddies Logo" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Blinging Baddies</h2>
+        <p>Shop the most dazzling blinged-out accessories, featuring our Junk 510 Thread Batteries!</p>
+        <a href="#shop" class="btn">Shop Now</a>
+    </section>
+
+    <section id="shop" class="products">
+        <h2>Our Signature Product</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="img/IMG_6747.jpeg" alt="Junk 510 Thread Batteries">
+                <h3>Junk 510 Thread Batteries (Multi-Colored)</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Blinging Baddies. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
